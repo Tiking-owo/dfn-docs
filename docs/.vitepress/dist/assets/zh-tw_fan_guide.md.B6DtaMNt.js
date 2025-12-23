@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CBUkzw5y.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh-tw/fan/guide.md","filePath":"zh-tw/fan/guide.md"}'),n={name:"zh-tw/fan/guide.md"};function r(o,s,c,d,i,f){return a(),t("div")}const m=e(n,[["render",r]]);export{_ as __pageData,m as default};

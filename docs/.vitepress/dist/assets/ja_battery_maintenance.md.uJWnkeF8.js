@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CBUkzw5y.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ja/battery/maintenance.md","filePath":"ja/battery/maintenance.md"}'),n={name:"ja/battery/maintenance.md"};function r(c,o,s,i,m,p){return a(),t("div")}const f=e(n,[["render",r]]);export{d as __pageData,f as default};

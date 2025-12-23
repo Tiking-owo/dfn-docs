@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.CBUkzw5y.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh-tw/battery/index.md","filePath":"zh-tw/battery/index.md"}'),r={name:"zh-tw/battery/index.md"};function n(o,s,c,d,i,p){return a(),e("div")}const f=t(r,[["render",n]]);export{m as __pageData,f as default};
