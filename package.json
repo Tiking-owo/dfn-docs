@@ -2,6 +2,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "node node_modules/vitepress/bin/vitepress.js build docs",
+    "postdocs:build": "mkdir -p dist && mv docs/.vitepress/dist/* dist/ 2>/dev/null || true",
     "docs:preview": "vitepress preview docs",
     "docs:serve": "vitepress serve docs"
   },
