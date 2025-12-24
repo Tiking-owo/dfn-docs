@@ -18,6 +18,9 @@ export default defineConfig({
   },
 
   vite: {
+    build: {
+      outDir: '../dist',
+    },
     server: {
       host: '0.0.0.0',
       port: 5173,
