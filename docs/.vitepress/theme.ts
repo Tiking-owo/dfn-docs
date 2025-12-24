@@ -6,6 +6,7 @@ export const themeConfig: DefaultTheme.Config = {
     { icon: 'taobao', link: 'https://shop151485374.taobao.com/' },
     { icon: 'xiaohongshu', link: 'https://www.xiaohongshu.com/user/profile/5d3bc43a0000000011035727' },
     { icon: 'qq', link: 'https://qm.qq.com/cgi-bin/qm/qr?k=XQAYtdxsujVzYMfopxCZhb-Efdq6qTIJ&authKey=Qz76O6YqOj3NE2ebzjlFDJe3ibJF3PSGDdsAxfC3vNbIb34gi+vNevtti2cq7cxo&noverify=0&personal_qrcode_source=1001' },
+    { icon: 'github', link: 'https://github.com/Tiking-owo/dfn-docs/' },
   ],
   footer: {
     message: '© 2025 豆腐脑文档 版权所有',
