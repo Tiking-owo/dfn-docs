@@ -3,7 +3,7 @@
 [中文](README.md) | English
 
 ## Project Overview
-This is a VitePress-based multilingual documentation site for 【豆腐脑文档】 (Tofu Nao Docs) products, focusing on fans and batteries. The site supports Chinese (zh-CN, zh-TW), English (en), and Japanese (ja) locales.
+This is a VitePress-based multilingual documentation site for 【豆腐脑文档】 (Tofu Nao Docs) products. The site supports Chinese (zh-CN, zh-TW), English (en), and Japanese (ja) locales.
 
 ## Architecture
 - **Framework**: VitePress 1.6.4 with TypeScript
@@ -42,24 +42,6 @@ npm run docs:dev
 - **Preview**: `npm run docs:preview`
 - **Serve**: `npm run docs:serve`
 
-## Content Patterns
-- **Home Pages**: Use `layout: home` with hero section, action buttons, and features list
-- **Navigation**: Defined per locale in config.ts with nav and sidebar arrays
-- **Product Sections**: 
-  - Fan: introduce.md, guide.md
-  - Battery: parameter.md, maintenance.md
-- **Links**: Internal links use relative paths (e.g., `/fan/introduce`)
-
-## Conventions
-- **File Naming**: index.md for section homes, descriptive names for sub-pages
-- **Locale Folders**: Mirror structure across en/, zh/, ja/
-- **Social Links**: Taobao shop, Xiaohongshu, QQ group integrated in theme config
-- **Footer**: Copyright with ICP registration number (浙ICP备2025148805号)
-
-## Deployment
-- Hosted on Netlify with language-based redirects
-- Server configured for host 0.0.0.0:5173 with allowedHosts: ['tiking.top']
-
 ## Adding New Content
 1. Create markdown files in appropriate locale folders
 2. Update sidebar in the corresponding locale file in `docs/.vitepress/locales/` for each locale
@@ -71,11 +53,6 @@ npm run docs:dev
 - **Theme Configuration**: Modify `docs/.vitepress/theme.ts` for shared theme settings
 - **Search Configuration**: Update `docs/.vitepress/search.ts` for search functionality
 - **Main Config**: `docs/.vitepress/config.ts` imports all modular configurations
-
-## Translation Maintenance
-- Keep content synchronized across zh/, zh-tw/, en/, ja/ folders
-- Update navigation labels and sidebar text for each locale
-- Maintain consistent URL structures for cross-language linking
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
