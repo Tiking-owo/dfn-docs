@@ -1,7 +1,7 @@
 {
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "node node_modules/vitepress/bin/vitepress.mjs build docs",
+    "docs:build": "node node_modules/vitepress/bin/vitepress.js build docs",
     "docs:preview": "vitepress preview docs",
     "docs:serve": "vitepress serve docs"
   },
