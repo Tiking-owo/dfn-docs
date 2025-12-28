@@ -13,6 +13,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@vueuse/core": "^14.1.0"
+    "@vueuse/core": "^14.1.0",
+    "dplayer": "^1.27.1"
   }
 }

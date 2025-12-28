@@ -11,6 +11,7 @@ import {
   toValue,
   watch
 } from "./chunk-LE5NDSFD.js";
+import "./chunk-BUSYA2B4.js";
 
 // node_modules/@vueuse/integrations/node_modules/@vueuse/core/index.mjs
 var defaultDocument = isClient ? window.document : void 0;

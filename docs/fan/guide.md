@@ -1,2 +1,6 @@
-<iframe src="//player.bilibili.com/player.html?isOutside=true&bvid=BV1mr421u7Xh&p=1&autoplay=0" 
-    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="668" height="376"></iframe>
+<!-- filepath: d:\GitHub\dfn_docs\docs\fan\guide.md -->
+<script setup>
+import DPlayer from '../.vitepress/theme/DPlayer.vue';
+</script>
+
+<DPlayer video-url="https://tk.ap.bclcraft.com/Tiking/web/dfn/01e950c8691aab86010370019b639b4f10_115.mp4" :autoplay="false" />
