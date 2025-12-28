@@ -1,6 +1,11 @@
-<!-- filepath: d:\GitHub\dfn_docs\docs\fan\guide.md -->
-<script setup>
-import DPlayer from '../.vitepress/theme/DPlayer.vue';
-</script>
+<iframe class="bilibili-iframe" src="//player.bilibili.com/player.html?isOutside=true&bvid=BV1vVvrBtEKV&p=1&autoplay=0" 
+    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
-<DPlayer video-url="/guide.mp4" :autoplay="false" />
+<style>
+    .bilibili-iframe {
+     width: 450px; /* 固定宽度（竖屏优化） */
+     height: 600px;
+     margin: 0 auto; /* 水平居中 */
+     display: block; /* 确保 margin: auto 生效 */
+    }
+</style>
