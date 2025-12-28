@@ -1,11 +1,11 @@
-// filepath: d:\GitHub\dfn_docs\.vitepress\theme\DPlayer.vue
 <template>
-  <div ref="player" class="dplayer-container"></div>
+  <ClientOnly>
+    <div ref="player" class="dplayer-container"></div>
+  </ClientOnly>
 </template>
 
 <script setup>
 import { onMounted, ref } from 'vue';
-import DPlayer from 'dplayer';
 
 const props = defineProps({
   videoUrl: String,
@@ -14,7 +14,8 @@ const props = defineProps({
 
 const player = ref(null);
 
-onMounted(() => {
+onMounted(async () => {
+  const { default: DPlayer } = await import('dplayer');
   new DPlayer({
     container: player.value,
     video: {
