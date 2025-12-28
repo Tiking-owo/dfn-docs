@@ -3,9 +3,9 @@
 
 <style>
     .bilibili-iframe {
-     width: 450px; /* 固定宽度（竖屏优化） */
+     width: 450px; /* 固定宽度 */
      height: 600px;
      margin: 0 auto; /* 水平居中 */
-     display: block; /* 确保 margin: auto 生效 */
+     display: block; 
     }
 </style>
